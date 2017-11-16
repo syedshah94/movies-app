@@ -3,9 +3,6 @@ import './App.css';
 
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 
-
-import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
-
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -15,10 +12,6 @@ import Register from './components/Register';
 import Dashboard from './components/Dashboard';
 
 import MovieList from './components/MovieList';
-
-
-
-
 
 class App extends Component {
   constructor() {
