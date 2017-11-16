@@ -3,6 +3,9 @@ import './App.css';
 
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 
+
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
+
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -48,7 +51,7 @@ class App extends Component {
         'Content-Type': 'application/json',
       },
       credentials: 'include',
-      body: JSON.stringify(data),
+      body: JSON.stringify(data)
     }).then(res => res.json())
       .then(res => {
         console.log(res);
