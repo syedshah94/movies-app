@@ -51,7 +51,7 @@ class App extends Component {
         'Content-Type': 'application/json',
       },
       credentials: 'include',
-      body: JSON.stringify(data),
+      body: JSON.stringify(data)
     }).then(res => res.json())
       .then(res => {
         console.log(res);
